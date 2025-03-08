@@ -16,7 +16,7 @@ public class CalculatorJTest {
                 .isEqualTo(-4);
         assertThat(calculatorUT.substract(2,-2)==4)
                 .isTrue()
-                .isInstanceOf(Calculator.class);
+                .isInstanceOf(Boolean.class);
 
     }
 
